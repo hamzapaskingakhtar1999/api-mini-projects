@@ -1,0 +1,33 @@
+.cat {
+    height: 70vh;
+/*     width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background: url("../../assets/Cat.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .container {
+        height: 40vh;
+        width: 40vw;
+        background-color: rgba($color: #b9b9b9ac, $alpha: .5);
+        border-radius: 20px;
+        padding: 20px;
+        margin: 40px;
+    }
+
+    button {
+        background-color: aliceblue;
+        border: none;
+        font-size: large;
+        padding: 12px;
+        border-radius: 0px 20px 0 20px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(11, 217, 217);
+        }
+    } 
+}
